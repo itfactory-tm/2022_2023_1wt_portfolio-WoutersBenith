@@ -9,7 +9,7 @@
 | Student         | Info                                                             |
 |:----------------|:-----------------------------------------------------------------|
 | Name            | ...                                                              |
-| email           | [john.doe@example.com](mailto:john.doe@example.com)              |
+| email           | r0944720@student.thomasmore.be                                   |
 | Github Username | ...                                                              |
 | Hosting         | [https://yourdomain.netlify.app](https://yourdomain.netlify.app) |
 
