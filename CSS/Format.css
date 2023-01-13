@@ -87,7 +87,7 @@ body {
         font-weight: 550;
         line-height: 1.5;
         background-color: #b7b7af;
-        background-image: url("../Pictures and favicon/sheetmusic.jpg");
+        background-image: url("../Pictures/sheetmusic.jpg");
         background-attachment: scroll;
         background-repeat: no-repeat;
         background-size: cover;
@@ -98,13 +98,8 @@ body {
 
 .MainTabelFooter {background-color: #340505}
 /*HEADER*/
-
-.img1 img2 {
-
-    border-radius: 50%;}
-
-.Hoofding {
-    background-image: url("../Pictures and favicon/De gitaarspeelster(Vermeer)medium.jpg") !important;
+    .Hoofding {
+    background-image: url("../Pictures/De_gitaarspeelster_Vermeer_medium.jpg") !important;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
