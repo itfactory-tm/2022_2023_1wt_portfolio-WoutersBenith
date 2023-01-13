@@ -8,7 +8,7 @@
 
 | Student         | Info                                                             |
 |:----------------|:-----------------------------------------------------------------|
-| Name            | ...                                                              |
+| Name            | Benith Wouters                                                   |
 | email           | r0944720@student.thomasmore.be                                   |
 | Github Username | ...                                                              |
 | Hosting         | [https://yourdomain.netlify.app](https://yourdomain.netlify.app) |

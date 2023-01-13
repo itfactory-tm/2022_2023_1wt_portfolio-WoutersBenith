@@ -1,0 +1,171 @@
+/*main + footer*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+/*header*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+
+/* Klein ——————————- */
+@media only screen
+and (max-width : 480px) {
+    /* jouw CSS stijlen */
+    h1 { font-size: 32px; }
+}
+
+/* Groot – groot beeldscherm ———– */
+@media only screen
+and (min-width : 1281px) {
+    body{position: center}
+}
+
+/* Tablets landscape, oudere desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px)
+
+/* Tablets portrait, grote display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+
+/* Smartphones landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px)
+
+/* Smartphones portrait mode */
+
+@media only screen and (max-width: 420px)
+
+@media print {
+    body {
+        background-image: none;
+        background-color:transparent}
+    .hoofding {
+        background-image: none;
+        background-color: transparent;
+        color: black}
+    nav {display: none;}
+}
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+/*NAV*/
+.nav {
+    position: center;
+    list-style-type: none;
+    background-color: #340505;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+    li {display: inline;
+        padding: 0 50px 0 !important;
+        background-color: #340505
+    }
+.anav {
+    font-family: Cinzel, serif !important;
+    font-weight: normal !important;
+    color: #f6a262 !important;
+    font-size: 20px !important;
+}
+/*BODY*/
+body {
+        font-family: EB Garamond, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 550;
+        line-height: 1.5;
+        background-color: #b7b7af;
+        background-image: url("../Pictures and favicon/sheetmusic.jpg");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #f6a262;
+
+}
+
+.MainTabelFooter {background-color: #340505}
+/*HEADER*/
+
+.img1 img2 {
+
+    border-radius: 50%;}
+
+.Hoofding {
+    background-image: url("../Pictures and favicon/De gitaarspeelster(Vermeer)medium.jpg") !important;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    font-family: Cinzel, serif;
+    font-weight: bolder !important;
+    text-align: right;
+    color: #f6a262;
+    padding-right: 5%;
+}
+
+    h1 {font-size: 40px !important;
+    }
+    h2 {font-size: 30px !important;
+    }
+    h3 {font-size: 20px !important;
+    }
+
+/*TABEL*/
+.Tabel {
+    font-family: EB Garamond, sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 650;
+    text-align: left;
+}
+.Tabel{ border: none;
+    border-collapse: collapse;
+    display: inline-block;
+    padding: 2rem;
+    max-width: 800px;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+
+}
+th,td {border: 0.1rem solid black;
+      border-collapse: collapse;
+        padding: 0.7rem}
+
+
+caption {caption-side: top;
+        }
+
+
+footer {font-family: EB Garamond, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #f6a262;
+}
+
+/*Links*/
+a {color: #3333FF
+}
+a:visited {color: #336666
+}
+a:focus{color: #3333FF
+    }
+a:hover{color: #9933CC
+    }
+a:active {color: #336666
+    }
+
