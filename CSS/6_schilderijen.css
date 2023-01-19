@@ -1,0 +1,12 @@
+
+
+
+            ul {
+                list-style-type: none;
+                padding: 3rem;
+            }
+
+            li {list-style-position: inside;
+                list-style-type: none;
+                padding-right: 3rem !important;
+            }
