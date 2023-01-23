@@ -1,39 +1,40 @@
 /*main-footer*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-
 /*header*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
 /*icons*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
-/*!* Klein ——————————- *!*/
-/*@media screen*/
-/*and (max-width: 480px) {*/
-/*    !* jouw CSS stijlen *!*/
-/*    h1 {*/
-/*        font-size: 32px;*/
-/*    }*/
+
+
+/* Smartphones  */
+@media screen and (min-width: 421px) {
+    nav ul{display: list-item;}
+    nav li {display: list-item;}
+    .img3 {width: 10rem;}
+    header {
+        font-weight: bolder!important;
+        text-align: left;
+        height: 400px;
+      }
 }
+
+/* Tablets portrait */
+@media screen and (min-width: 768px){}
+
+/*.img1 .img2 .img3 .img4 .img5{*/
+/*    width: 3px ;*/
+/*    height: 4px*/
+/*}*/
+
 
 /*extra groot scherm  */
 @media screen and (min-width: 1281px)
 {
-    body head {
 
-    }
 }
-/* Tablets portrait */
-    @media screen and (min-width: 768px) and (max-width: 1023px)
-
-
-        
-        /* Smartphones  */
-        @media screen and (min-width: 421px) and (max-width: 767px)
-            /* Smartphones portrait mode */
-            @media screen and (max-width: 420px)
-
 @media print {
                     body {
                         background-image: none;
@@ -53,13 +54,16 @@
                     /*    height: 4px*/
                     /*}*/
                 }
+
+/* ------------------------------------------------------------------------------------------- normaal 17 inch scherm */
+
 /*Universal selector box-model*/
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-                html {
+html {
                     -webkit-box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     box-sizing: border-box
@@ -69,33 +73,30 @@ box-sizing: border-box;
 
                 nav ul {
                     font-family: Cinzel, serif;
-                    font-size: 18px;
+                    font-weight: bold !important;
+                    font-size: 17px !important;
                     background-color: #9f3e3e;
                     list-style-type: none;
                     width: 100%;
                     padding: 5px 5px;
                     display: flex;
                     position: fixed;
-                    justify-content: space-between;
-                    align-content: space-between;
+                    justify-content: space-evenly;
                    }
                 nav li {
                     flex: 1 1 auto;
-                    padding: 0 3.5rem 0 !important;
+                    padding: 0 1rem 0 !important;
                     justify-content: space-between;
                     align-content: space-between;
                 }
                 /*links nav bar*/
-                .anav {
-                    font-family: Cinzel, serif !important;
-                    font-weight: bold !important;
-                    font-size: 17px !important;
+                nav a {
                     color: black !important;
                 }
-                .anav:visited {
+                nav a:visited {
                     color: #02247c !important;
                 }
-                .anav:hover {
+                nav a:hover {
                     color: black !important;
                     font-size: 30px !important;
                 }
@@ -103,7 +104,7 @@ box-sizing: border-box;
                 /*BODY*/
                 body {
                     font-family: EB Garamond, sans-serif;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-style: normal;
                     font-variant: normal;
                     font-weight: 550;
@@ -145,7 +146,7 @@ header {
                 padding: 2rem 2rem;
             }
 /*Images*/
-.h3oudetijd {margin-top: 250px!important;}
+.h3oudetijd {margin-top: 150px!important;}
 .img1{float: left;
     margin-top: 5px ;
     margin-right: 10px;
@@ -203,7 +204,6 @@ header {
                     font-size: 1.5rem !important;
                     font-weight: 650;
                     text-align: left;
-                    background-color: background-color: #e5e5f7;
                     max-width: 600px;
                     margin: 50px auto;
                     box-shadow: -1rem -1rem 1rem   ;

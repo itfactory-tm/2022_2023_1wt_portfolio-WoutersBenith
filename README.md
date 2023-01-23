@@ -6,14 +6,12 @@
 
 > :exclamation: Houd deze repo 100% up-to-date :exclamation:
 
-| Student         | Info                                                             |
-|:----------------|:-----------------------------------------------------------------|
-| Name            | Benith Wouters                                                   |
-| email           | r0944720@student.thomasmore.be                                   |
-| Github Username | ...                                                              |
-| Hosting         | [https://yourdomain.netlify.app](https://yourdomain.netlify.app) |
-
-## Installatie
+| Student         | Info                                                                      |
+|:----------------|:--------------------------------------------------------------------------|
+| Name            | Benith Wouters                                                            |
+| email           | r0944720@student.thomasmore.be                                            |
+| Github Username | ...                                                                       |
+| Hosting         | [https://muziekgeschiedenis.netlify.app/]                                 |
 
 1. Installeer de LTS-versie van [Nodejs](https://nodejs.org/en/)
 2. Open **Git Bash** op een willekeurige plaats en installer een lokale webserver via `npm install -g live-server`
