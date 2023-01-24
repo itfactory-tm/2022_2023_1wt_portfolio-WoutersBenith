@@ -15,12 +15,12 @@
         flex-direction: column !important;
         position: fixed !important;
     }
+
+
     header {
         font-weight: bolder;
         text-align: left;
-        color: #f67205;
         height: 300px;
-        padding-right: 5%;
     }
     h1 {
         font-size: 30px !important;
@@ -78,91 +78,6 @@
         padding: 0.5px;
     }
 }
-/* Tablet */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2){
-
-    /*NAV*/
-
-    /*BODY*/
-    body {
-        font-family: EB Garamond, sans-serif;
-        font-size: 20px;
-    }
-
-    /*HEADER*/
-    header {
-        font-family: Cinzel, serif;
-        font-weight: bolder !important;
-        text-align: right;
-        color: #f67205;
-        height: 200px;
-        padding-right: 5%;
-    }
-
-    h1 {
-        font-size: 40px !important;
-        padding-top: 7rem;
-
-    }
-
-    h2 {
-        font-size: 30px !important;
-        padding-top: 1rem;
-    }
-
-    h3 {
-        font-size: 30px !important;
-    }
-
-    /*Images*/
-    .h3oudetijd {
-        margin-top: 50px !important;
-    }
-
-    .img1 {
-        float: left;
-        margin-top: 5px;
-        margin-right: 10px;
-        width: 25rem;
-    }
-
-    .img2 {
-        height: 300px;
-        width: 200px;
-        float: right;
-        margin-right: 100px;
-        margin-left: 100px;
-    }
-
-    .img3 {
-        width: 25rem;
-        float: right;
-    }
-
-    .img4 {
-        height: 300px;
-        width: 300px;
-    }
-
-    .img5 {
-        float: left;
-        height: 300px;
-        width: 200px;
-        margin-right: 10px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    }
 
 
 
@@ -174,23 +89,13 @@
 
         header {
             background-image: none;
-            background-color: transparent;
             color: black
         }
 
         nav {
             display: none;
         }
-
-        /*.img1 .img2 .img3 .img4 .img5{*/
-        /*    width: 3px ;*/
-        /*    height: 4px*/
-        /*}*/
-    }
-
-
-
-
+}
 
 /* ------------------------------------------------------------------------------------------- normaal 17 inch scherm */
 
@@ -244,11 +149,10 @@ html {
 
         /*BODY*/
         body {
-            font-family: EB Garamond, sans-serif;
+            font-family: "EB Garamond", sans-serif;
             font-size: 20px;
             font-style: normal;
             font-variant: normal;
-            font-weight: 550;
             line-height: 1.5;
             color: #f6a262;
         }
@@ -259,14 +163,10 @@ html {
 
 
         /*HEADER*/
-        header {
-            background-image: url("/Pictures/De_gitaarspeelster_Vermeer_origineel_crop.jpg") ;
-            background-attachment: scroll;
+header {
+            background: url("/Pictures/de_gitaarspeelster_Vermeer_origineel_crop.jpg") no-repeat center;
             background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
             font-family: Cinzel, serif;
-            font-weight: bolder !important;
             text-align: right;
             color: #f67205;
             height: 400px;
@@ -294,7 +194,7 @@ html {
         }
 
         /*Images*/
-        .h3oudetijd {
+        .h3_middeleeuwen {
             margin-top: 150px !important;
         }
 
@@ -414,6 +314,6 @@ html {
         a:active {
             color: #ecc60f
         }
-/*---------------------------------------------------------------------------------------------------------------*/
+
 
 
