@@ -1,0 +1,39 @@
+
+/*main-footer*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+/*header*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+/*icons*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+            ul {
+                list-style-type: none;
+                padding: 3rem;
+            }
+
+            li {list-style-position: inside;
+                list-style-type: none;
+                padding-right: 3rem !important;
+            }
